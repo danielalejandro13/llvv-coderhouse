@@ -109,16 +109,13 @@ h2{color:antiquewhite;
   grid-row-gap: 20px; 
 }
 
-.contenedormerch__gridmerch{
+.contenedormerch .gridfotos{
   height: 300px;
-  margin-bottom: 90px;
 }
 
-.contenedormerch__imge{
+.contenedormerch .img{
   width: 100%;
   height: 100%;
-  border-radius: 5px;
-  
 }
 
 @media all and (max-width: 1000px){
@@ -135,17 +132,16 @@ h2{color:antiquewhite;
 .btn {
   background-color: antiquewhite;
   margin-top: 10px;
-  
 }
 
 .btn:hover{
-  background-color: whitesmoke;
+  background-color: aquamarine;
 }
 
-.contenedormerch__gridmerch a{
+.gridmerch a{
   color: black;
 }
-.contenedormerch__gridmerch a:hover{
+.gridmerch a:hover{
   color: cadetblue;
   cursor: pointer;
 }
